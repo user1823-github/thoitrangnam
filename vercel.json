@@ -1,5 +1,7 @@
 {
     "redirects": [
-      { "source": "/docs", "destination": "/index.html", "permanent": false }
+        {
+            "rewrites": [{ "source": "/docs", "destination": "/index.html" }]
+        }
     ]
   }
